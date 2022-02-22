@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width:30vw;
+    height: 100vh;
+    margin: 10px auto;
+}
+
+.content{
+    height: 33.3%;
+    position: relative;
+}
+
+.content_img{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.content_img>img{
+    max-width: 100%;
+}
+
+.content_img>h2{
+    color: yellow;
+    font-family: monospace;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
