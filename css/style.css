@@ -6,14 +6,8 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: black;
-}
-
 .container{
-    width:23vw;
-    height: 100vh;
-    margin: 10px auto;
+    margin: 2% 20%;
 }
 
 /* Number */
@@ -59,22 +53,27 @@ body{
 
 .content_img>h2{
     color: yellow;
-    font-family: monospace;
     text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 .red{
     background-color: red;
+    height: 100vh;
 }
 
 .green{
     background-color: green;
+    height: 100vh;
+
 }
 
 .yellow{
     background-color: yellow;
+    height: 100vh;
+
 }
 
 .yellow h2{
