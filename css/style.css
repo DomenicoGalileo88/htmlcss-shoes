@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
 .container{
     margin: 2% 20%;
 }
@@ -28,11 +32,11 @@
     border-radius: 50%;
     display: inline-block;
     text-align: center;
-    font-family: 'Rubik Mono One', sans-serif;
     text-decoration: none;
 }
 
 /* Content */
+
 .content{
     height: 33.3%;
     position: relative;
@@ -44,7 +48,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .content_img>img{
@@ -54,7 +57,6 @@
 .content_img>h2{
     color: yellow;
     text-align: center;
-    font-family: 'Rubik Mono One', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -67,13 +69,11 @@
 .green{
     background-color: green;
     height: 100vh;
-
 }
 
 .yellow{
     background-color: yellow;
     height: 100vh;
-
 }
 
 .yellow h2{
